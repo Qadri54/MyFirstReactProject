@@ -1,17 +1,7 @@
 export default function Button() {
-    const buttonstyle = {
-        padding : "10px",
-        backgroundColor: "black",
-        borderRadius: "10px",
-        width: "50px",
-        height: "auto",
-        color: "white",
-        textAlign: "center",
-        cursor: "pointer",
-        hover: "blue"
-      }
-
-      return (
-        <div style={buttonstyle}>button</div>
-      );
+    return (
+        <div className="bg-blue-600 p-3 w-24 h-auto rounded text-white font-bold text-center hover:bg-blue-700">
+            button
+        </div>
+    );
 }

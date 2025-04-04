@@ -13,7 +13,7 @@ export default function Gallery() {
     fontWeight:"bold"
   }
 
-  const tambah = (a,b) =>  a*b;
+  const tambah = (a,b) =>  a+b;
   
   const hasil = tambah(6,5);
   
